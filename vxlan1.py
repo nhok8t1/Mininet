@@ -10,7 +10,7 @@ def emptyNet():
     info('*** Adding Controller\n')
     info('*** Adding Host\n')
     red1 = net.addHost('red1', ip='10.0.10.10', mac='00:00:00:00:00:01')
-    blue1 = net.addHost('blue1', ip='10.0.10.10', mac='00:00:00:00:00:02')
+    blue1 = net.addHost('blue1', ip='10.0.10.10', mac='00:00:00:00:00:01')
     info('*** Adding Switch\n')
     s11 = net.addSwitch('s11')
     info('*** Creating Link\n')
