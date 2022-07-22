@@ -12,7 +12,7 @@ def emptyNet():
     red2 = net.addHost('red2', ip='10.0.10.20', mac='00:00:00:00:00:02')
     blue2 = net.addHost('blue2', ip='10.0.10.20', mac='00:00:00:00:00:02')
     info('*** Adding Switch\n')
-    s222 = net.addSwitch('s22')
+    s222 = net.addSwitch('s222')
     c0 = net.addController('c0', controller=RemoteController, ip='127.0.0.1', port=6633)
     info('*** Creating Link\n')
     net.addLink(red2, s222)
