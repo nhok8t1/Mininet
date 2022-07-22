@@ -7,7 +7,7 @@ from mininet.link import Link, TCLink
 
 def emptyNet():
     info('*** Adding Controller\n')
-    net = Mininet(controller=RemoteController, link=TCLink, switch=OVSKernelSwitch)
+    net = Mininet()
     info('*** Adding Host\n')
     red1 = net.addHost('red1', ip='10.0.10.10', mac='00:00:00:00:00:01')
     blue1 = net.addHost('blue1', ip='10.0.10.10', mac='00:00:00:00:00:01')
