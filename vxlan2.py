@@ -1,8 +1,6 @@
 from mininet.net import Mininet
-from mininet.node import Controller, RemoteController, OVSKernelSwitch, UserSwitch
 from mininet.cli import CLI
 from mininet.log import setLogLevel, info
-from mininet.link import Link, TCLink
 
 
 def emptyNet():
